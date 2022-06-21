@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_docshare_error_reproducer *.css
+recursive-include frappe_docshare_error_reproducer *.csv
+recursive-include frappe_docshare_error_reproducer *.html
+recursive-include frappe_docshare_error_reproducer *.ico
+recursive-include frappe_docshare_error_reproducer *.js
+recursive-include frappe_docshare_error_reproducer *.json
+recursive-include frappe_docshare_error_reproducer *.md
+recursive-include frappe_docshare_error_reproducer *.png
+recursive-include frappe_docshare_error_reproducer *.py
+recursive-include frappe_docshare_error_reproducer *.svg
+recursive-include frappe_docshare_error_reproducer *.txt
+recursive-exclude frappe_docshare_error_reproducer *.pyc
